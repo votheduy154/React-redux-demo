@@ -1,5 +1,6 @@
 import * as actionTypes from '../configs/actions';
 const INITIAL_STATE = [];
+const init = "abc"
 
 module.exports = function(state = INITIAL_STATE, action) {
     switch (action.type) {
